@@ -1,0 +1,106 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color:#222;
+}
+
+ .contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 100%;
+  }
+.detils{
+    width: 100%;
+    
+  }
+ 
+.detils span,
+  .formdes form span{
+    font-size: 20px;
+    text-align: center;
+  }
+  
+.detils h2,
+  .formdes form h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+ .detils h3{
+    font-size: 16px;
+   padding-bottom: 15px;
+  }
+
+  .detils li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+  }
+ 
+  .i{
+    font-size: 14px;
+    padding-right: 22px;
+  }
+ 
+  .detils li p{
+    margin: 0;
+    font-size: 16px;
+  }
+ 
+  .formdes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+ 
+  .formdes form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+  }
+ 
+  .formdes form span{
+     margin-top: 60px;
+     margin-left: 60%;
+    
+  }
+ 
+  .formdes form h2{
+     margin-left: 55%;
+    
+  }
+  
+  .formdes form input,
+  .formdes form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid ;
+    margin-left: 25%;
+  }
+  .formdes form button{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid ;
+    margin-left: 25%;
+    background-color: rgb(121, 175, 175);
+  }

@@ -1,0 +1,11 @@
+.size{
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    background-color:azure;
+}
+.progressbar{
+    width: 100px;
+   color: red;
+}
